@@ -33,9 +33,9 @@ pipeline {
                 allowMissing: true,
                 alwaysLinkToLastBuild: true,
                 keepAll: true,
-                reportDir: '**/target/site/jacoco',
+                reportDir: 'target/site/jacoco',
                 reportFiles: 'index.html',
-                reportName: "JaCoCo Results"
+                reportName: "JaCoCo Coverage Results"
             ])
         }
     }
